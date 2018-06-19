@@ -103,9 +103,6 @@ h6 {
   }
 }
 
-#mainNav {
-  background-color: #222;
-}
 
 #mainNav .navbar-toggler {
   padding: 15px;
@@ -154,8 +151,8 @@ h6 {
     background-color: transparent;
   }
   #mainNav.navbar-shrink {
+    background: rgba(50,50,50,0.8);
     padding: 5px 0;
-    background-color: #222;
   }
   #mainNav .navbar-brand {
     font-size: 26px;

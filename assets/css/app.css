@@ -1,4 +1,6 @@
-.card-img-top {
-  width: 200px;
-  height: 400px;
+#mainNav {
+  background: rgba(50,50,50,0.5);
+}
+.portfolio-wrapper img {
+  height: 250px;
 }
