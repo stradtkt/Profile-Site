@@ -4,3 +4,14 @@
 .portfolio-wrapper img {
   height: 250px;
 }
+.github-link {
+  font-size: 30px;
+  font-weight: 700;
+}
+.github-link:hover {
+  color: dodgerblue !important;
+  transition: 0.4s ease-in-out;
+}
+#portfolioSection {
+  background-size: cover;
+}
