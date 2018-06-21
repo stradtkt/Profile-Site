@@ -15,3 +15,56 @@
 #portfolioSection {
   background-size: cover;
 }
+@media  (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+  #mainNav  {
+    background: rgba(50,50,50,0.9);
+  }
+  .navbar-toggler {
+    box-shadow: 1.5px 1.5px 4px #222;
+    -webkit-box-shadow: 1.5px 1.5px 4px #222;
+    -moz-box-shadow: 1.5px 1.5px 4px #222;
+    -o-box-shadow: 1.5px 1.5px 4px #222;
+    -ms-box-shadow: 1.5px 1.5px 4px #222;
+    background: linear-gradient(125deg, rgba(100,100,100,1), rgba(50,50,50,0.5));
+    background: -webkit-linear-gradient(125deg, rgba(100,100,100,1), rgba(50,50,50,0.5));
+    background: -moz-linear-gradient(125deg, rgba(100,100,100,1), rgba(50,50,50,0.5));
+    background: -ms-linear-gradient(125deg, rgba(100,100,100,1), rgba(50,50,50,0.5));
+    background: -o-linear-gradient(125deg, rgba(100,100,100,1), rgba(50,50,50,0.5));
+    width: 300px;
+    margin:0 auto;
+    color: white;
+  }
+  #mainNav {
+    width: 320px;
+  }
+  .masthead {
+    width: 325px;
+    height: 100%;
+  }
+  .masthead-title {
+    font-size: 30px !important;
+  }
+  .masthead-subtitle {
+    font-size: 20px !important;
+  }
+  #about img {
+    position: relative;
+    left: 15px;
+  }
+  #portfolioSection {
+    display: none;
+  }
+  .testimonial-text {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .testimonial-text .testimonial-p {
+    font-size: 16px;
+  }
+}
